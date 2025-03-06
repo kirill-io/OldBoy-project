@@ -1,0 +1,23 @@
+:root {
+  --primary-font: 'Arial', 'Verdana', sans-serif;
+  --secondary-font: 'Prata-Regular', 'Verdana', sans-serif;
+  --primary-font-size-m: 16px;
+  --primary-font-size-l: 19px;
+  --primary-font-size-xl: 20px;
+  --primary-font-size-xxl: 24px;
+  --primary-font-size-xxxl: 50px;
+  --secondary-font-size-m: 36px;
+  --secondary-font-size-l: 40px;
+  --secondary-font-size-xl: 54px;
+  --secondary-font-size-xxl: 80px;
+  --font-line-heigth-xs: 1.1;
+  --font-line-heigth-s: 1.2;
+  --font-line-heigth-m: 1.3;
+  --font-line-heigth-l: 1.4;
+  --font-line-heigth-xl: 1.5;
+  --font-letter-spacing-m: calc(1em / 33);
+  --font-letter-spacing-l: calc(1em / 25);
+  --primary-bg-color: #222;
+  --secondary-bg-color: #282829;
+  --primary-color: #fff;
+}
