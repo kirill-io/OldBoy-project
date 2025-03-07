@@ -11,12 +11,13 @@
 }
 
 .intro::after {
-  background: image-set(
-    url('/assets/images/intro/intro-bg@1x.webp') type('image/webp') 1x,
-    url('/assets/images/intro/intro-bg@2x.webp') type('image/webp') 2x,
-    url('/assets/images/intro/intro-bg@1x.jpg') type('image/jpeg') 1x,
-    url('/assets/images/intro/intro-bg@2x.jpg') type('image/jpeg') 2x
-  ) center / cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+              image-set(
+                url('/assets/images/intro/intro-bg@1x.webp') type('image/webp') 1x,
+                url('/assets/images/intro/intro-bg@2x.webp') type('image/webp') 2x,
+                url('/assets/images/intro/intro-bg@1x.jpg') type('image/jpeg') 1x,
+                url('/assets/images/intro/intro-bg@2x.jpg') type('image/jpeg') 2x
+              ) center / cover no-repeat;
   content: '';
   inset: 0 0 0 auto;
   position: absolute;
@@ -82,4 +83,45 @@
   line-height: var(--font-line-heigth-xl);
   margin-right: 15px;
   padding-left: 7px;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro::after {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                image-set(
+                  url('/assets/images/intro/intro-bg@1x.webp') type('image/webp') 1x,
+                  url('/assets/images/intro/intro-bg@2x.webp') type('image/webp') 2x,
+                  url('/assets/images/intro/intro-bg@1x.jpg') type('image/jpeg') 1x,
+                  url('/assets/images/intro/intro-bg@2x.jpg') type('image/jpeg') 2x
+                ) center / cover no-repeat;
+    width: 100%;
+  }
+
+  .intro__wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .intro__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .intro__title {
+    font-size: var(--secondary-font-size-xl);
+    max-width: 600px;
+  }
+
+  .intro__subtitle {
+    font-size: var(--primary-font-size-xxl);
+  }
+
+  .intro__list {
+    align-self: start;
+  }
 }

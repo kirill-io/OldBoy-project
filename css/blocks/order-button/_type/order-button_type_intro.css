@@ -3,3 +3,10 @@
   font-weight: 700;
   padding: 30px 49.8px;
 }
+
+@media screen and (max-width: 1279px) {
+  .order-button_type_intro {
+    font-size: var(--primary-font-size-xl);
+    padding: 20px 150px;
+  }
+}
