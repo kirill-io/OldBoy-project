@@ -1,0 +1,27 @@
+.logo {
+  color: var(--primary-color);
+  font: var(--secondary-font-size-m) var(--secondary-font);
+  letter-spacing: var(--font-letter-spacing-m);
+  line-height: var(--font-line-heigth-xl);
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo::before {
+  background: var(--primary-color);
+  bottom: 5px;
+  content: '';
+  height: 3px;
+  position: absolute;
+  right: 0;
+  transform: translateX(-0px);
+  transition: width .3s ease-out;
+  width: 0;
+}
+
+.logo:hover::before {
+  left: 0;
+  transform: translateX(0px);
+  width: 100%;
+}

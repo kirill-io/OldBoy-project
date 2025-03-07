@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 33px 0;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__wrapper {
+  max-width: 1600px;
+  width: 100%;
+}
+
+.header__container {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  max-width: 52.93%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1739px) {
+  .header__wrapper {
+    width: 92%;
+  }
+}
