@@ -125,3 +125,25 @@
     align-self: start;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .intro {
+    font-size: var(--primary-font-size-xl);
+  }
+
+  .intro__wrapper {
+    padding-top: 80px;
+  }
+
+  .intro__subtitle {
+    margin: 0 0 30px;
+  }
+
+  .intro__list {
+    align-self: center;
+  }
+
+  .intro__subtext {
+    font-size: var(--secondary-font-size-m);
+  }
+}

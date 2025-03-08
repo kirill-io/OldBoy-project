@@ -1,11 +1,13 @@
 :root {
   --primary-font: 'Arial', 'Verdana', sans-serif;
   --secondary-font: 'Prata-Regular', 'Verdana', sans-serif;
+  --primary-font-size-s: 14px;
   --primary-font-size-m: 16px;
   --primary-font-size-l: 19px;
   --primary-font-size-xl: 20px;
   --primary-font-size-xxl: 24px;
   --primary-font-size-xxxl: 50px;
+  --secondary-font-size-s: 30px;
   --secondary-font-size-m: 36px;
   --secondary-font-size-l: 40px;
   --secondary-font-size-xl: 54px;

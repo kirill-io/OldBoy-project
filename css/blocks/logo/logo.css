@@ -25,3 +25,9 @@
   transform: translateX(0px);
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .logo {
+    font-size: var(--secondary-font-size-s);
+  }
+}
