@@ -6,5 +6,7 @@
 @import url('../blocks/order-button/order-button.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/intro/intro.css');
+@import url('../blocks/about/about.css');
 
 @import url('../blocks/order-button/_type/order-button_type_intro.css');
+@import url('../blocks/order-button/_type/order-button_type_about.css');
