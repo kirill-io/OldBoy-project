@@ -23,7 +23,6 @@
   line-height: var(--font-line-heigth-xl);
   margin: 0;
   outline: none;
-  padding: 0;
   padding: 12px 39px;
   width: 100%;
 }
@@ -91,4 +90,35 @@
 .form__button:hover {
   background: var(--primary-color);
   color: var(--secondary-bg-color);
+}
+
+@media screen and (max-width: 1279px) {
+  .form {
+    gap: 20px;
+    font-size: var(--primary-font-size-m);
+  }
+
+  .form__inputs {
+    gap: 10px;
+  }
+
+  .form__input-element {
+    font-size: var(--primary-font-size-xl);
+    padding: 10px 30px;
+  }
+
+  .form__checkbox-label::before {
+    height: 20px;
+    width: 20px;
+  }
+
+  .form__checkbox-label::after {
+    left: 3px;
+    top: 5px;
+  }
+
+  .form__button {
+    font-size: var(--primary-font-size-xl);
+    padding: 20px 0;
+  }
 }

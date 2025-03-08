@@ -51,14 +51,27 @@
 .order__image {
   height: 100%;
   left: 50%;  
-  max-width: 609px;
+  max-width: 440px;
   position: relative;
   transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1279px) {
   .order__wrapper {
-    padding: 36px 66px;
     width: 95%;
+  }
+
+  .order__container {
+    padding: 36px 36px 36px 65px;
+  }
+
+  .order__title {
+    font-size: var(--secondary-font-size-l);
+    max-width: 420px;
+    margin-bottom: 30px;
+  }
+
+  .order__image {  
+    max-width: 270px;
   }
 }
