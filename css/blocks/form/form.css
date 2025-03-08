@@ -122,3 +122,19 @@
     padding: 20px 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .form {
+    gap: 16px;
+  }
+
+  .form__input-element {
+    font-size: var(--primary-font-size-m);
+    padding: 8px 14px;
+  }
+
+  .form__button {
+    font-size: var(--primary-font-size-m);
+    padding: 15px 0;
+  }
+}

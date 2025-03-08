@@ -73,7 +73,7 @@
 @media screen and (max-width: 1279px) {
   .about {
     font-size: var(--primary-font-size-m);
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   .about__wrapper::before {
