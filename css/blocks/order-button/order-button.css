@@ -18,6 +18,5 @@
 
 .order-button:hover {
   background: var(--primary-bg-color);
-  box-shadow: 0px 0px 0px 2px var(--primary-color) inset;
   color: var(--primary-color);
 }

@@ -47,7 +47,7 @@
 
 .about__item {
   align-items: start;
-  border-bottom: 1px solid #55565A;
+  border-bottom: 1px solid var(--secondary-color);
   display: flex;
   gap: 20px;
   padding: 31.5px 0;
