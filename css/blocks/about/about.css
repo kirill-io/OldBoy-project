@@ -69,3 +69,38 @@
 .about__text {
   margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .about {
+    font-size: var(--primary-font-size-m);
+    padding-top: 80px;
+  }
+
+  .about__wrapper::before {
+    width: 28%;
+  }
+  
+  .about__wrapper::after {
+    width: 28%;
+  }
+
+  .about__container {
+    padding: 35px 35px 0;
+    width: 44%;
+  }
+
+  .about__list {
+    margin-bottom: 35px;
+  }
+
+  .about__item {
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  .about__image {
+    height: 27px;
+    padding-top: 5px;
+    width: 33.5px;
+  }
+}
