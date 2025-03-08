@@ -104,3 +104,57 @@
     width: 33.5px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .about {
+    padding-top: 0;
+  }
+
+  .about__wrapper {
+    justify-content: center;
+    padding: 50px 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .about__wrapper::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                image-set(
+                  url('/assets/images/about/about-bg-1@1x.webp') type('image/webp') 1x,
+                  url('/assets/images/about/about-bg-1@2x.webp') type('image/webp') 2x,
+                  url('/assets/images/about/about-bg-1@1x.jpg') type('image/jpeg') 1x,
+                  url('/assets/images/about/about-bg-1@2x.jpg') type('image/jpeg') 2x
+                ) center / cover no-repeat;
+    inset: 0 0 50% 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .about__wrapper::after {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                image-set(
+                  url('/assets/images/about/about-bg-2@1x.webp') type('image/webp') 1x,
+                  url('/assets/images/about/about-bg-2@2x.webp') type('image/webp') 2x,
+                  url('/assets/images/about/about-bg-2@1x.jpg') type('image/jpeg') 1x,
+                  url('/assets/images/about/about-bg-2@2x.jpg') type('image/jpeg') 2x
+                ) center / cover no-repeat;
+    inset: 50% 0 0 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .about__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    width: 92%;    
+    z-index: 10;
+  }
+
+  .about__list {
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+}
