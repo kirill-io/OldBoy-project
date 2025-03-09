@@ -1,0 +1,23 @@
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+  position: relative;
+}
+
+.link::before {
+  background: var(--primary-color);
+  bottom: 0;
+  content: '';
+  height: 1.5px;
+  position: absolute;
+  right: 0;
+  transform: translateX(-0px);
+  transition: width .3s ease-out;
+  width: 0;
+}
+
+.link:hover::before {
+  left: 0;
+  transform: translateX(0px);
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.menu_type_header {
+  max-width: 427px;
+}
+
+.menu_type_header .menu__item {
+  width: 33.33%;
+}
+
+.menu_type_header .menu__item:nth-child(3n+2) {
+  text-align: center;
+}
+
+.menu_type_header .menu__item:nth-child(3n) {
+  text-align: right;
+}
+
+@media screen and (max-width: 1279px) {
+  .menu_type_header {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu_type_header {
+    max-width: none;
+  }
+}

@@ -1,0 +1,8 @@
+.menu_type_footer {
+  font-size: var(--primary-font-size-xl);
+}
+
+.menu_type_footer .menu__list {
+  gap: 60px;
+  justify-content: center;
+}

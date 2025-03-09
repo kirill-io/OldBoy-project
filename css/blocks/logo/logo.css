@@ -1,5 +1,6 @@
 .logo {
   color: var(--primary-color);
+  display: inline-block;
   font: var(--secondary-font-size-m) var(--secondary-font);
   letter-spacing: var(--font-letter-spacing-m);
   line-height: var(--font-line-heigth-xl);

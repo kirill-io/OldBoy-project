@@ -1,8 +1,7 @@
 .menu {
   font: italic var(--primary-font-size-m) var(--primary-font);
   letter-spacing: var(--font-letter-spacing-l);
-  line-height: var(--font-line-heigth-xl);
-  max-width: 427px;
+  line-height: var(--font-line-heigth-xl);  
   width: 100%;
 }
 
@@ -12,19 +11,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;
-}
-
-.menu__item {
-  width: 33.33%;
-}
-
-.menu__item:nth-child(3n+2) {
-  text-align: center;
-}
-
-.menu__item:nth-child(3n) {
-  text-align: right;
 }
 
 .menu__link {
@@ -52,16 +38,9 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1279px) {
-  .menu {
-    max-width: 400px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .menu {
     font-size: var(--primary-font-size-s);
-    max-width: none;
     overflow: hidden;
   }
 

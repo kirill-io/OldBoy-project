@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The OldBoy barbershop chain is everything a man needs: a brutal atmosphere, great company, drinks, professionalism and European traditions.">
+  <meta name="description"
+    content="The OldBoy barbershop chain is everything a man needs: a brutal atmosphere, great company, drinks, professionalism and European traditions.">
   <meta name="author" content="Kirill-io">
   <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/pages/index.css">
   <title>OldBoy Barbershop - a network of men's hairdressing salons</title>
 </head>
+
 <body class="root">
   <section class="intro">
     <header class="header">
       <div class="header__wrapper">
         <div class="header__container">
           <a href="/" class="logo" aria-label="Go to the home page">OldBoy</a>
-          <nav class="menu">
+          <nav class="menu menu_type_header">
             <menu class="menu__list">
               <li class="menu__item">
                 <a href="/" class="menu__link" aria-label="Go to the home page">Home</a>
@@ -49,10 +52,11 @@
             <p class="intro__text">Haircut time <span class="intro__subtext">40-60</span> minutes</p>
           </li>
         </ul>
-        <a class="order-button order-button_type_intro" title="Place an order" aria-label="Place an order">Book</a>
+        <a href="#order" class="order-button order-button_type_intro" title="Place an order"
+          aria-label="Place an order">Book</a>
       </div>
-    </div>    
-  </section>  
+    </div>
+  </section>
 
   <main class="content">
 
@@ -66,7 +70,8 @@
             </li>
             <li class="about__item">
               <img src="./assets/images/about/icon.svg" alt="icon" class="about__image">
-              <p class="about__text">Brutal atmosphere – interior in the style of a classic barbershop with a masculine character.</p>
+              <p class="about__text">Brutal atmosphere – interior in the style of a classic barbershop with a masculine
+                character.</p>
             </li>
             <li class="about__item">
               <img src="./assets/images/about/icon.svg" alt="icon" class="about__image">
@@ -78,29 +83,34 @@
             </li>
             <li class="about__item">
               <img src="./assets/images/about/icon.svg" alt="icon" class="about__image">
-              <p class="about__text">More than just a haircut - a chance to relax, socialize and feel like part of a men's club.</p>
+              <p class="about__text">More than just a haircut - a chance to relax, socialize and feel like part of a
+                men's club.</p>
             </li>
           </ul>
-          <a class="order-button order-button_type_about" title="Place an order" aria-label="Place an order">Book</a>
+          <a href="#order" class="order-button order-button_type_about" title="Place an order"
+            aria-label="Place an order">Book</a>
         </div>
       </div>
     </section>
 
-    <section class="order">
+    <section class="order" id="order">
       <div class="order__wrapper">
         <div class="order__container">
           <h2 class="order__title">Make an appointment</h2>
           <form class="form" name="orderForm" novalidate>
             <div class="form__inputs">
               <label class="form__input">
-                <input class="form__input-element" type="text" name="name" placeholder="Name" aria-label="Enter your name to record">
+                <input class="form__input-element" type="text" name="name" placeholder="Name"
+                  aria-label="Enter your name to record">
               </label>
               <label class="form__input">
-                <input class="form__input-element" type="email" name="email" placeholder="E-mail" aria-label="Enter your email to record">
+                <input class="form__input-element" type="email" name="email" placeholder="E-mail"
+                  aria-label="Enter your email to record">
               </label>
-            </div>            
+            </div>
             <div class="form__checkbox">
-              <input class="form__checkbox-element" id="checkbox" name="accept" type="checkbox" aria-label="Accept Privacy policy">
+              <input class="form__checkbox-element" id="checkbox" name="accept" type="checkbox"
+                aria-label="Accept Privacy policy">
               <label class="form__checkbox-label" for="checkbox">I accept Privacy policy</label>
             </div>
             <button class="form__button" type="submit" aria-label="Make an appointment">Book</button>
@@ -108,20 +118,109 @@
         </div>
         <div class="order__image-wrap">
           <picture>
-            <source type="image/webp" srcset="./assets/images/order/order-bg@1x.webp 1x, ./assets/images/order/order-bg@2x.webp 2x">
-            <img src="./assets/images/order/order-bg@1x.jpg" srcset="./assets/images/order/order-bg@2x.jpg 2x" alt="Photo of the barbershop interior." class="order__bg-image">
+            <source type="image/webp"
+              srcset="./assets/images/order/order-bg@1x.webp 1x, ./assets/images/order/order-bg@2x.webp 2x">
+            <img src="./assets/images/order/order-bg@1x.jpg" srcset="./assets/images/order/order-bg@2x.jpg 2x"
+              alt="Photo of the barbershop interior." class="order__bg-image">
           </picture>
           <div class="order__image-container">
             <picture>
-              <source type="image/webp" srcset="./assets/images/order/barber@1x.webp 1x, ./assets/images/order/barber@1x.webp 2x">
-              <img src="./assets/images/order/barber@1x.png" srcset="./assets/images/order/barber@2x.png 2x" alt="Barber with scissors and comb." class="order__image">
+              <source type="image/webp"
+                srcset="./assets/images/order/barber@1x.webp 1x, ./assets/images/order/barber@1x.webp 2x">
+              <img src="./assets/images/order/barber@1x.png" srcset="./assets/images/order/barber@2x.png 2x"
+                alt="Barber with scissors and comb." class="order__image">
             </picture>
           </div>
         </div>
-        
       </div>
     </section>
 
   </main>
+
+  <footer class="footer">
+    <div class="footer__menu">
+      <div class="footer__menu-wrap">
+        <nav class="menu menu_type_footer">
+          <menu class="menu__list">
+            <li class="menu__item">
+              <a href="/" class="menu__link" aria-label="Go to the home page">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link" aria-label="Go to service page">Services</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link" aria-label="Go to the contacts page">Contacts</a>
+            </li>
+          </menu>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__content">
+      <div class="footer__content-wrap">
+        <div class="footer__logo">
+          <a href="/" class="logo" aria-label="Go to the home page">OldBoy</a>
+        </div>
+        <div class="footer__social">
+          <ul class="social">
+            <li class="social__item">
+              <a href="https://www.instagram.com/" class="social__link" target="_blank"
+                aria-label="Link to our Instagram">
+                <svg class="social__image">
+                  <use href="./assets/images/social/social.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.tiktok.com/" class="social__link" target="_blank" aria-label="Link to our TikTok">
+                <svg class="social__image">
+                  <use href="./assets/images/social/social.svg#tiktok"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.tiktok.com/" class="social__link" target="_blank" aria-label="Link to our TikTok">
+                <svg class="social__image">
+                  <use href="./assets/images/social/social.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.facebook.com/" class="social__link" target="_blank" aria-label="Link to our Facebook">
+                <svg class="social__image">
+                  <use href="./assets/images/social/social.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://web.telegram.org/" class="social__link" target="_blank" aria-label="Link to our Telegram">
+                <svg class="social__image">
+                  <use href="./assets/images/social/social.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.youtube.com/" class="social__link" target="_blank" aria-label="Link to our YouTube">
+                <svg class="social__image">
+                  <use href="./assets/images/social/social.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__order">
+          <a href="#order" class="order-button order-button_type_footer" title="Place an order" aria-label="Place an order">Book</a>
+        </div>
+        <div class="footer__text">© 2024, Copyright.</div>
+        <div class="footer__link footer__link_type_policy">
+          <a href="#" class="link" aria-label="Link to privacy policy">Privacy policy</a>
+        </div>
+        <div class="footer__link footer__link_type_use">
+          <a href="#" class="link" aria-label="Link to Terms of Use">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>

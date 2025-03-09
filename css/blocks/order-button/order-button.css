@@ -9,8 +9,8 @@
   font: var(--primary-font-size-xl) var(--primary-font);
   letter-spacing: calc(1em/25);
   line-height: var(--font-line-heigth-xl);
-  outline: inherit;
   padding: 0;
+  text-decoration: none;
   text-transform: uppercase;
   transition: background-color .3s ease-out,
               color .3s ease-out;
