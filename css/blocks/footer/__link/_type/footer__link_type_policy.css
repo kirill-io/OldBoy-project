@@ -1,3 +1,17 @@
 .footer__link_type_policy {
   justify-self: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer__link_type_policy {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link_type_policy {
+    grid-row: 4 / 5;
+  }
+}

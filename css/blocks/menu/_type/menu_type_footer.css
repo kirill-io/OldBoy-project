@@ -6,3 +6,24 @@
   gap: 60px;
   justify-content: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .menu_type_footer {
+    font-size: var(--primary-font-size-m);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu_type_footer .menu__list {
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .menu_type_footer .menu__item:nth-child(3n+2) {
+    text-align: center;
+  }
+  
+  .menu_type_footer .menu__item:nth-child(3n) {
+    text-align: right;
+  }
+}
