@@ -24,6 +24,11 @@
   width: 39.74%;
 }
 
+.intro__substrate {
+  position: relative;
+  width: 100%;
+}
+
 .intro__wrapper {
   margin-bottom: 50px;
   max-width: 1600px;
